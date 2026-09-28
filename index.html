@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apocalipse — passo 9</title>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #1a1b20;
+      color: #c7c8cc;
+      font-family: system-ui, -apple-system, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      user-select: none;
+    }
+    h1 {
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 4px;
+      color: #8a8b90;
+      margin: 0;
+    }
+    canvas {
+      background: #0e0f13;
+      border: 1px solid #2a2c33;
+      border-radius: 6px;
+      box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
+      image-rendering: pixelated;
+    }
+    p.hint {
+      font-size: 12px;
+      color: #6a6b70;
+      margin: 0;
+      max-width: 800px;
+      text-align: center;
+    }
+    p.hint b { color: #a8a9ad; }
+  </style>
+</head>
+<body>
+  <h1>A&nbsp;P&nbsp;O&nbsp;C&nbsp;A&nbsp;L&nbsp;I&nbsp;P&nbsp;S&nbsp;E&nbsp;&nbsp;&mdash;&nbsp;&nbsp;passo&nbsp;9</h1>
+  <canvas id="game" width="800" height="480"></canvas>
+  <p class="hint">
+    <b>WASD</b> = mover &bull; <b>Shift</b> = sneaking &bull; <b>Click</b> = atacar &bull;
+    <b>I</b> = inventário &bull; <b>1–5</b> = hotbar &bull; <b>E</b> = usar item &bull;
+    Mate zumbis → loot no chão → ande perto pra pegar &bull; 2× Pano = Bandagem
+  </p>
+  <script src="game.js"></script>
+</body>
+</html>
