@@ -10,6 +10,21 @@ Feito em **HTML5 Canvas + JavaScript puro** (sem dependências, sem build).
 ## Status
 Pausado no momento — os sistemas principais (visão, IA de zumbis, sobrevivência, mapa por biomas) estão funcionais, mas o projeto trava na parte de arte: hoje só tem placeholders/testes visuais, e falta tempo (e ânimo) pra produzir os sprites finais. Fica aqui como registro de arquitetura e progresso, não como jogo "acabado".
 
+## Screenshots
+*(arte placeholder — gerada por IA/formas geométricas, ainda não é a arte final)*
+
+| Detecção de zumbi (alerta vs. chase) | Infectado após ser mordido |
+|---|---|
+| ![Zumbis em alerta e perseguição](screenshots/zumbis-alerta-e-chase.png) | ![Estado infectado](screenshots/infectado.png) |
+
+| Craft de barricada | Barricada colocada |
+|---|---|
+| ![Craft de barricada no inventário](screenshots/craft-barricada.png) | ![Barricada bloqueando zumbis](screenshots/barricada-colocada.png) |
+
+| Game over |
+|---|
+| ![Tela de você morreu](screenshots/voce-morreu.png) |
+
 ## Como rodar
 Por enquanto: abra `index.html` no navegador (duplo clique já serve).
 Quando entrarem imagens/sprites, vamos precisar de um servidor local simples
